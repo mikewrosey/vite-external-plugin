@@ -13,8 +13,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/main.ts'),
-      name: 'AppPlugin',
-      fileName: (format) => `app-plugin.${format}.js`
+      name: 'RedPlugin',
+      fileName: (format) => `RedPlugin.${format}.js`
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

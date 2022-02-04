@@ -4,12 +4,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/app-plugin.umd.js",
-  "module": "./dist/app-plugin.es.js",
+  "main": "./dist/GreenPlugin.umd.js",
+  "module": "./dist/GreenPlugin.es.js",
   "exports": {
     ".": {
-      "import": "./dist/app-plugin.es.js",
-      "require": "./dist/app-plugin.umd.js"
+      "import": "./dist/GreenPlugin.es.js",
+      "require": "./dist/GreenPlugin.umd.js"
     }
   },
   "scripts": {
@@ -18,6 +18,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0",
     "vite-plugin-externals": "^0.3.3",
     "vue": "^3.2.25"
   },

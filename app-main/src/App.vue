@@ -1,15 +1,30 @@
 <script setup lang="ts">
 // @ts-ignore
 import * as Vue from 'vue/dist/vue.esm-bundler'
-import { defineAsyncComponent } from 'vue'
-import externalComponent from './utils/externalComponent'
-
+import PluginContainer from './PluginContainer.vue'
+import addStylesheet from './utils/externalStyles'
 (window as any).Vue = Vue
 
-const AppPlugin = defineAsyncComponent(() => externalComponent('http://localhost:5000/app-plugin.es.js'))
+// list of external js files
+const externalScripts = [
+  'http://localhost:5001/RedPlugin.es.js',
+  'http://localhost:5000/GreenPlugin.es.js'
+]
+
+// list of externam css assets
+const externalStylesheets = [
+  'http://localhost:5001/style.css',
+  'http://localhost:5000/style.css'
+]
+
+for (const stylesheet of externalStylesheets) {
+  addStylesheet(stylesheet)
+}
 </script>
 
 <template>
   This is the main app
-  <AppPlugin />
+  <div v-for="script of externalScripts" :key="script">
+    <PluginContainer :script="script" />
+  </div>
 </template>
