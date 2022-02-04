@@ -11,7 +11,7 @@ const externalScripts = [
   'http://localhost:5000/GreenPlugin.es.js'
 ]
 
-// list of externam css assets
+// list of external css assets
 const externalStylesheets = [
   'http://localhost:5001/style.css',
   'http://localhost:5000/style.css'

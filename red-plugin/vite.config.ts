@@ -11,6 +11,7 @@ export default defineConfig({
   })
   ],
   build: {
+    cssCodeSplit: false, // keep css in one chunk
     lib: {
       entry: path.resolve(__dirname, 'src/main.ts'),
       name: 'RedPlugin',
