@@ -2,4 +2,4 @@ yarn
 
 yarn build
 
-yarn preview (serves assets on port 5000/1)
+yarn preview (serves assets on port 5000)

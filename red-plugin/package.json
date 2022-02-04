@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 5001"
   },
   "dependencies": {
     "sass": "^1.49.7",
