@@ -39,6 +39,59 @@
   resolved "https://registry.yarnpkg.com/@emmetio/scanner/-/scanner-1.0.0.tgz#065b2af6233fe7474d44823e3deb89724af42b5f"
   integrity sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==
 
+"@featherds/button@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@featherds/button/-/button-0.9.4.tgz#5b399df05bb28b33cdc8d88f2a0fd0fc4ae6b2f4"
+  integrity sha512-KU0t+vwAkOwUKZoyhxuNsC0gJOc9yfPSnz1E3RXKWm4if/L6kPHWm/U0wZUZHz0CENimFZxb1xF6LYqpK8XaHw==
+  dependencies:
+    "@featherds/ripple" "^0.9.4"
+    "@featherds/styles" "^0.9.4"
+    vue "^3.1.0-0"
+
+"@featherds/icon@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@featherds/icon/-/icon-0.9.4.tgz#157457ecf742735e949451babd6bd6f7e02988f0"
+  integrity sha512-GFKLdsmXNNe3ZVDrQ9zT3w3Dl1FzY8UlD2/c5002qJlCTPaVPac8RQ9n/on9BaU2s+7q62JHC1BC2mf0AIwDCg==
+  dependencies:
+    vue "^3.1.0-0"
+
+"@featherds/input-helper@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@featherds/input-helper/-/input-helper-0.9.4.tgz#980df4015060c38f4ba78c530e71217034c64932"
+  integrity sha512-yS0qsr9p2hwdsDhgrTevqumzfW4qdHDklF4xe7srpq5fzuz341uXVwpAKhd8+TfAFzv9ZhFyw6M6CMjJn6MK9g==
+  dependencies:
+    "@featherds/styles" "^0.9.4"
+    vue "^3.1.0-0"
+
+"@featherds/input@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@featherds/input/-/input-0.9.4.tgz#41e916ec828ef4545f07797ffac6660c5bcaea94"
+  integrity sha512-4yd+I2BnxozoKDGHP7hsANrhs+YzR2DkvXKbUDamQ1Z26yJ9Grbj3sw7H+bNdYGo9uxef7mM/oWrTtxG7J6Sxw==
+  dependencies:
+    "@featherds/icon" "^0.9.4"
+    "@featherds/input-helper" "^0.9.4"
+    "@featherds/ripple" "^0.9.4"
+    "@featherds/styles" "^0.9.4"
+    "@featherds/utils" "^0.9.4"
+    vue "^3.1.0-0"
+
+"@featherds/ripple@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@featherds/ripple/-/ripple-0.9.4.tgz#ee4e5d7d5015b2a5f956995e3108f1d22923d58b"
+  integrity sha512-rbf7j88DM7U1uWfRQqUmJssSzjiWNECyTwGxKkhf7QEdp0kDyQQ+uYBS7EVxn7WGKtXfaQpPtWk5zwSveaf3qQ==
+  dependencies:
+    vue "^3.1.0-0"
+
+"@featherds/styles@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@featherds/styles/-/styles-0.9.4.tgz#d0b9b8662604d9a0f3f13bb01d26e726b6c2d10d"
+  integrity sha512-uGUm/TwnktfVHleJEaEwcVLubDxrGhIVFymICUiy+XJ1/H3w3HzvBtJZxn1Uq4ynA8n3WPBHxfYD88mvk8cS3A==
+
+"@featherds/utils@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@featherds/utils/-/utils-0.9.4.tgz#52d889413224a059157d661264d4e85ff52810c5"
+  integrity sha512-h0WASYyzMG1u0GH18E7W9+Qboxlvqlb5LqtrVqyJQim1CtwEOCvgMJie1+4ue0qLh2vc8udnlQRR7nLx1AXNIA==
+
 "@vitejs/plugin-vue@^2.0.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-2.1.0.tgz#ddf5e0059f84f2ff649afc25ce5a59211e670542"
@@ -1068,7 +1121,7 @@ vue-tsc@^0.29.8:
     "@volar/shared" "0.29.8"
     vscode-vue-languageservice "0.29.8"
 
-vue@^3.2.25:
+vue@^3.1.0-0, vue@^3.2.25:
   version "3.2.29"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.29.tgz#3571b65dbd796d3a6347e2fd45a8e6e11c13d56a"
   integrity sha512-cFIwr7LkbtCRanjNvh6r7wp2yUxfxeM2yPpDQpAfaaLIGZSrUmLbNiSze9nhBJt5MrZ68Iqt0O5scwAMEVxF+Q==

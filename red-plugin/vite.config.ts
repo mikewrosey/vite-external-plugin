@@ -5,6 +5,11 @@ import { viteExternalsPlugin } from 'vite-plugin-externals'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  resolve: {
+    alias: {
+      '~@featherds': '@featherds'
+    }
+  },
   plugins: [vue(),
   viteExternalsPlugin({
     vue: 'Vue'

@@ -18,6 +18,9 @@
     "preview": "vite preview --port 5001"
   },
   "dependencies": {
+    "@featherds/button": "^0.9.4",
+    "@featherds/input": "^0.9.4",
+    "@featherds/styles": "^0.9.4",
     "sass": "^1.49.7",
     "sass-loader": "^12.4.0",
     "vite-plugin-externals": "^0.3.3",
